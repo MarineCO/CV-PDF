@@ -3,50 +3,144 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css"/>
 	<title>CV Marine COLONGE - Web Developer</title>
 </head>
 <body>
-	<header>
-		<img src="" alt="">
-		<h1>Développeuse Web</h1>
-		<ul>
-			<li><h1>Marine COLONGE</h1></li>
-			<li>16 rue Cécile Brunschvicg</li>
-			<li>31200 TOULOUSE</li>
-			<li>28 ans</li>
-			<li><a href="mailto:marinecolonge@gmail.com">marinecolonge@gmail.com</a></li>
-			<li>
-				<a href="https://www.linkedin.com/in/marine-colonge-b90a24128"><i class="small linkedin icon"></i></a>
-				<a href="https://twitter.com/marine_cmk"><i class="small twitter icon"></i></a>
-				<a href="https://github.com/MarineCO"><i class="small github icon"></i></a>
-			</li>
-		</ul>
-	</header>
-	<div>
-		<p class="citation">"Lorsqu'on s'occupe d'informatique il faut faire comme les canards... <br>Paraître calme en surface et pédaler comme un forcené par en dessous."</p>
-		<p class="citation">Richard LALLEMENT</p>
-		<h3>#InCodeWeTrust</h3>
-		<h3>Jeune développeuse motivée, dynamique et curieuse.</h3>
-	</div>
-	<div class="bloc1">
-		<div class="sub-bloc1">
-			<h2>Competences</h2>
-			
+	<header class="ui three column doubling stackable grid">
+		<img class="column" src="" alt="">
+		<div class="column middle">
+			<h1 class="job">Développeuse Web</h1>
+			<h3 class="punchline2">Jeune développeuse motivée, dynamique et curieuse.</h3>
 		</div>
-		<div class="sub-bloc1">
-			<h2>Projets</h2>
-			
+		<div class="column info">
+			<ul>
+				<li><h1>Marine COLONGE</h1></li>
+				<li>16 rue Cécile Brunschvicg</li>
+				<li>31200 TOULOUSE</li>
+				<li>28 ans</li>
+				<li><a href="mailto:marinecolonge@gmail.com">marinecolonge@gmail.com</a></li>
+				<li>
+					<a href="https://www.linkedin.com/in/marine-colonge-b90a24128"><i class="small linkedin icon"></i></a>
+					<a href="https://twitter.com/marine_cmk"><i class="small twitter icon"></i></a>
+					<a href="https://github.com/MarineCO"><i class="small github icon"></i></a>
+				</li>
+			</ul>
+			<!-- <p class="citation">"Lorsqu'on s'occupe d'informatique il faut faire comme les canards... Paraître calme en surface et pédaler comme un forcené par en dessous."</p>
+			<p class="citation">Richard LALLEMENT</p> -->
+		</div>
+	</header>
+	<div class="ui two column doubling stackable grid">
+		<div class="sub-bloc1 column">
+			<h2 class="title">Compétences</h2>
+			<div class="general">
+				<div class="detail">
+					<h3 class="subtitle">Développement Web</h3>
+					<ul class="liste">
+						<li>Compréhension du besoin initial</li>
+						<li>Développement</li>
+						<li>Tests unitaires</li>
+					</ul>
+				</div>
+				<div class="detail">
+					<h3 class="subtitle">Gestion de projet</h3>
+					<ul class="liste">
+						<li>Expérience Agile :</li>
+						<ul>
+							<li>Kanban</li>
+							<li>Trello</li>
+							<li>Scrum</li>
+						</ul>
+						<li>Pair programming</li>
+					</ul>
+				</div>
+			</div>
+			<div class="general">
+				<div class="detail">
+					<h3 class="subtitle">Langages</h3>
+					<h4>Front-end</h4>
+					<ul class="liste">
+						<li>HTML</li>
+						<li>CSS / Sass</li>
+						<li>Javascript/ES6</li>
+					</ul>
+					<h4>Back-end</h4>
+					<ul class="liste">
+						<li>Node.js</li>
+						<li>PHP</li>
+						<li>Javascript</li>
+						<li>MySQL</li>
+					</ul>
+				</div>
+				<div class="detail">
+					<h3 class="subtitle">Technos</h3>
+					<ul class="liste">
+						<li>Express.js</li>
+						<li>Laravel</li>
+						<li>ReactJS</li>
+						<li>Framework front-end :</li>
+						<ul>
+							<li>Semantic</li>
+							<li>Foundation</li>
+							<li>Boostrap</li>
+						</ul>
+						<li>Library :</li>
+						<ul>
+							<li>Moment.js</li>
+							<li>Turf.js</li>
+							<li>Leaflet</li>
+						</ul>
+					</ul>
+				</div>
+				<div class="detail">
+					<h3 class="subtitle">Outils</h3>
+					<ul class="liste">
+						<li>Git</li>
+						<li>Github</li>
+						<li>Bitbucket</li>
+						<li>Linux</li>
+						<li>DbNinja</li>
+						<li>Jenkins</li>
+						<li>POO et MVC</li>
+						<li>Firebase</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="sub-bloc1 six wide tablet eight wide computer column">
+			<h2 class="title">Projets</h2>
+			<div class="project">
+				<a class="header" href="https://www.cityliv.fr/">Outil de reporting</a>
+				<p class="description">Création d'un outil de suivi des activités d'un ensemble de livreurs sur toute la région Ile de France.  Projet effectué pour la société Cityliv, transporteur électrique urbain. <i>*** Technos / Outils *** :</i> NodesJs / ReactJs / ES6 / Jenkins / Git / Bitbucket / npm / Firebase.</p>
+			</div>
+			<div class="project">
+				<a class="header" href="https://github.com/MarineCO/projet_client_taleez">Taleez : Projet client</a>
+				<p class="description">Création d'une extension chrome pour la startup Boxmyjob. <i> *** Technos / Outils *** : Javascript et axios.</i></p>
+			</div>
+			<div class="project">
+				<a class="header" href="https://github.com/MarineCO/projet_client_dc2">AdoptADuchess : Projet client</a>
+				<p class="description">Création d'un site pour le programme de marrainage #AdoptADuchess de l'Association Duchess France - Women in Tech. <i>*** Technos / Outils *** : Javascript,  carte avec Leaflet, géolocalisation, Sass, Semantic, Mustache, Body-parser, File-system, Express et système de mailing.</i></p>
+			</div>
+			<div class="project">
+				<a class="header" href="https://github.com/MarineCO/Random-pictures">Random Pictures</a>
+				<p class="description">Création d'un image placeholder - Service de mise à disposition d'images libres de droit facilement redimensionnable. <i>*** Technos / Outils *** : Javascript, PHP, Laravel, Clipboard.</i> <strong><a href="https://peaceful-citadel-38049.herokuapp.com/" class="test">Testez-le</a></strong></p>
+			</div>
+			<div class="project">
+				<a class="header" href="https://github.com/MarineCO/Adaptathon-2016">Adaptathon 2016 : Direct'TH</a>
+				<p class="description">Participation à l'Adaptathon 2016 dont la thématique était "Adapter l'entreprise au handicap". Le projet de mon équipe avait pour sujet le recrutement RH. Nous avons sur 2 jours, créer un site internet : Direct'TH. Il est destiné aux travailleurs handicapés prioritairement mais le site à également vocation a permettre l'échange entre tous, notamment pour la dispense de conseil via un forum. <i>*** Technos / Outils *** : Javascript et Semantic.</i></p>
+			</div>
 		</div>
 	</div>
 	<div class="bloc2">
 		<div class="sub-bloc2">
-			<h2>Expériences</h2>
-			
+			<h2 class="title">Expériences</h2>
+
 		</div>
 		<div class="sub-bloc2">
-			<h2>Formation</h2>
-			
+			<h2 class="title">Formation</h2>
+
 		</div>
 	</div>
 </body>

@@ -1,0 +1,91 @@
+body {
+	background-image: url("../images/ordi6.jpg") !important;
+	background-size: cover !important;
+}
+
+/* HEADER */
+
+header {
+	color: white;
+}
+
+header .middle {
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+}
+
+.job {
+	font-size: 3.2em;
+}
+
+.punchline2, .info {
+	font-size: 1.5em;
+}
+
+ul li, .description, .citation {
+	list-style: none;
+	font-size: 1em;
+	text-align: center;
+}
+
+/* CV'S BODY */
+
+.punchline {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.sub-bloc1, .sub-bloc2 {
+	min-width: 51em;
+	max-width: 51em;
+	background-color: white;
+	opacity: 0.80;
+	border-radius: 5%;
+	border: blue solid 5px;
+	padding-bottom: 0.8em;
+	margin-bottom: 2em;
+	margin-left: 2.2em;
+	margin-right: 1.5em;
+}
+
+.title, .subtitle {
+	text-align: center;
+	color: blue;
+}
+
+.title {
+	font-size: 2.3em;
+}
+
+.subtitle {
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+.general {
+	display: flex; 
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+
+.detail {
+	padding-right: 1.8em;
+	padding-left: 1.8em;
+}
+
+/* BLOC PROJECT */
+
+.project {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.header {
+	color: blue;
+	font-size: 1.3em;
+}
+
