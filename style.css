@@ -1,0 +1,11 @@
+/*HEADER*/
+
+header {
+	display: flex;
+	flex-direction: space-between;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+}
