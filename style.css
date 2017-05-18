@@ -1,4 +1,4 @@
-/*HEADER*/
+/* HEADER */
 
 header {
 	display: flex;
@@ -8,4 +8,17 @@ header {
 
 ul {
 	list-style: none;
+}
+
+/* CV'S BODY */
+
+.bloc1, .bloc2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: blue solid 1px;
+}
+
+.sub-bloc1, .sub-bloc2 {
+	border: black solid 1px;
 }
